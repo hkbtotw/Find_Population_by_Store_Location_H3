@@ -1,0 +1,9 @@
+*.csv
+*.xlsx
+*.exe
+boundary_data/
+SHAPE/
+Check_mainDf.py
+Credential.*
+Search_population_by_location.py
+
