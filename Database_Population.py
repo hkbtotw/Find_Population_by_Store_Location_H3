@@ -259,10 +259,7 @@ def Write_FB_Population_Clustered(df_input):
 
 	## ODBC Driver 17 for SQL Server
     # SQL Server
-    conn1 = pyodbc.connect('Driver={SQL Server};'
-                            'Server=SBNDCBIPBST02;'
-                            'Database=TSR_ADHOC;'
-                        'Trusted_Connection=yes;')
+    conn1 = connect_tad
     
 
     #- View all records from the table

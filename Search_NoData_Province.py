@@ -60,10 +60,7 @@ def ReadProvince():
     #                         'Database=SR_APP;'
     #                     'Trusted_Connection=yes;')
 
-    conn = pyodbc.connect('Driver={SQL Server};'
-                            'Server=SBNDCBIPBST02;'
-                            'Database=TSR_ADHOC;'
-                        'Trusted_Connection=yes;')
+    conn = connect_tad
 
     cursor = conn.cursor()
 
